@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    background-color: lightgray;
+}
+
+.grid:hover {
+    background-color: red;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    height: 200px;
+    background-color: aqua;
+}
+
+
+#container {
+    width: 640px;
+    height: 640px;
+}
+
+.button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    margin-bottom: 30px;  
+    margin-top: 0px;
+    font-size: 30px;
+}
